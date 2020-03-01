@@ -12,6 +12,7 @@ final class NewCleanOrderVC: UIViewController {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
+
 		view.backgroundColor = Colors.shared.pink
 		
 	}

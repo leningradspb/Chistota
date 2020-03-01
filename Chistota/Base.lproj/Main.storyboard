@@ -34,7 +34,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="5fY-Sj-3eA"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="ИСТОРИЯ" image="tray.full.fill" catalog="system" id="RZP-96-rx1"/>
+                    <tabBarItem key="tabBarItem" title="ИСТОРИЯ" image="order-history-60" id="RZP-96-rx1"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zjf-ej-xqw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -61,6 +61,6 @@
     </scenes>
     <resources>
         <image name="housekeeper50" width="25" height="25"/>
-        <image name="tray.full.fill" catalog="system" width="64" height="44"/>
+        <image name="order-history-60" width="30" height="30"/>
     </resources>
 </document>
