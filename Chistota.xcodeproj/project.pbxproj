@@ -9,23 +9,27 @@
 /* Begin PBXBuildFile section */
 		26AA29EF240C1767000C8F7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AA29EE240C1767000C8F7B /* AppDelegate.swift */; };
 		26AA29F1240C1767000C8F7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AA29F0240C1767000C8F7B /* SceneDelegate.swift */; };
-		26AA29F3240C1767000C8F7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AA29F2240C1767000C8F7B /* ViewController.swift */; };
+		26AA29F3240C1767000C8F7B /* NewCleanOrderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AA29F2240C1767000C8F7B /* NewCleanOrderVC.swift */; };
 		26AA29F6240C1767000C8F7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26AA29F4240C1767000C8F7B /* Main.storyboard */; };
 		26AA29F9240C1767000C8F7B /* Chistota.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 26AA29F7240C1767000C8F7B /* Chistota.xcdatamodeld */; };
 		26AA29FB240C176D000C8F7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26AA29FA240C176D000C8F7B /* Assets.xcassets */; };
 		26AA29FE240C176D000C8F7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26AA29FC240C176D000C8F7B /* LaunchScreen.storyboard */; };
+		26AA2A06240C1815000C8F7B /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AA2A05240C1815000C8F7B /* Colors.swift */; };
+		26AA2A09240C35CA000C8F7B /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AA2A08240C35CA000C8F7B /* HistoryVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		26AA29EB240C1767000C8F7B /* Chistota.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chistota.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26AA29EE240C1767000C8F7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26AA29F0240C1767000C8F7B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		26AA29F2240C1767000C8F7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		26AA29F2240C1767000C8F7B /* NewCleanOrderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCleanOrderVC.swift; sourceTree = "<group>"; };
 		26AA29F5240C1767000C8F7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		26AA29F8240C1767000C8F7B /* Chistota.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Chistota.xcdatamodel; sourceTree = "<group>"; };
 		26AA29FA240C176D000C8F7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26AA29FD240C176D000C8F7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26AA29FF240C176D000C8F7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26AA2A05240C1815000C8F7B /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		26AA2A08240C35CA000C8F7B /* HistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +64,24 @@
 			children = (
 				26AA29EE240C1767000C8F7B /* AppDelegate.swift */,
 				26AA29F0240C1767000C8F7B /* SceneDelegate.swift */,
-				26AA29F2240C1767000C8F7B /* ViewController.swift */,
+				26AA29F2240C1767000C8F7B /* NewCleanOrderVC.swift */,
+				26AA2A08240C35CA000C8F7B /* HistoryVC.swift */,
 				26AA29F4240C1767000C8F7B /* Main.storyboard */,
+				26AA2A07240C1826000C8F7B /* Extensions */,
 				26AA29FA240C176D000C8F7B /* Assets.xcassets */,
 				26AA29FC240C176D000C8F7B /* LaunchScreen.storyboard */,
 				26AA29FF240C176D000C8F7B /* Info.plist */,
 				26AA29F7240C1767000C8F7B /* Chistota.xcdatamodeld */,
 			);
 			path = Chistota;
+			sourceTree = "<group>";
+		};
+		26AA2A07240C1826000C8F7B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				26AA2A05240C1815000C8F7B /* Colors.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +156,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				26AA29F9240C1767000C8F7B /* Chistota.xcdatamodeld in Sources */,
-				26AA29F3240C1767000C8F7B /* ViewController.swift in Sources */,
+				26AA2A09240C35CA000C8F7B /* HistoryVC.swift in Sources */,
+				26AA2A06240C1815000C8F7B /* Colors.swift in Sources */,
+				26AA29F3240C1767000C8F7B /* NewCleanOrderVC.swift in Sources */,
 				26AA29EF240C1767000C8F7B /* AppDelegate.swift in Sources */,
 				26AA29F1240C1767000C8F7B /* SceneDelegate.swift in Sources */,
 			);
@@ -290,6 +306,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Chistota/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +324,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Chistota/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
